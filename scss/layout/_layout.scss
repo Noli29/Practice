@@ -1,0 +1,25 @@
+.container {
+  margin: 0 auto;
+  text-align: center;
+
+}
+
+.container::before,
+.container::after,
+.clearfix::before,
+.clearfix::after {
+  content: '';
+  display: table;
+}
+.container::after,
+.clearfix::after {
+  clear: both;
+}
+body {
+  background: url("../images/background.png") no-repeat;
+  background-size: cover;
+
+}
+.wrapper {
+  overflow: hidden;
+}

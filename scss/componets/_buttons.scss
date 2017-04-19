@@ -1,0 +1,25 @@
+main {
+  .form-act {
+    a {
+      opacity: 1;
+      margin-top: 25px;
+      color: #1e2f37;
+      font-family: Ubuntu, sans-serif;
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+      padding: 6px 25px;
+      box-shadow: 0 7px #2f004f;
+      border-radius: 29px;
+      background-color: #a8ff00;
+      text-decoration: none;
+      transition: .2s linear;
+
+      &:hover {
+        background-color: #a8ff00;
+        box-shadow: -13px -3px 135px 15px rgba(138, 0, 255, 0.75);
+      }
+
+    }
+  }
+}

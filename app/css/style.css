@@ -1,0 +1,232 @@
+@font-face {
+  font-family: "GothamProRegular";
+  src: url("../fonts/GothamProRegular/GothamProRegular.eot");
+  src: url("../fonts/GothamProRegular/GothamProRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/GothamProRegular/GothamProRegular.woff") format("woff"), url("../fonts/GothamProRegular/GothamProRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  font-family: "GothamProBold";
+  src: url("../fonts/GothamProBold/GothamProBold.eot");
+  src: url("../fonts/GothamProBold/GothamProBold.eot?#iefix") format("embedded-opentype"), url("../fonts/GothamProBold/GothamProBold.woff") format("woff"), url("../fonts/GothamProBold/GothamProBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  font-family: "GothamProBlack";
+  src: url("../fonts/GothamProBlack/GothamProBlack.eot");
+  src: url("../fonts/GothamProBlack/GothamProBlack.eot?#iefix") format("embedded-opentype"), url("../fonts/GothamProBlack/GothamProBlack.woff") format("woff"), url("../fonts/GothamProBlack/GothamProBlack.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  font-family: "GothamProItalic";
+  src: url("../fonts/GothamProItalic/GothamProItalic.eot");
+  src: url("../fonts/GothamProItalic/GothamProItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/GothamProItalic/GothamProItalic.woff") format("woff"), url("../fonts/GothamProItalic/GothamProItalic.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  font-family: "GothamProMedium";
+  src: url("../fonts/GothamProMedium/GothamProMedium.eot");
+  src: url("../fonts/GothamProMedium/GothamProMedium.eot?#iefix") format("embedded-opentype"), url("../fonts/GothamProMedium/GothamProMedium.woff") format("woff"), url("../fonts/GothamProMedium/GothamProMedium.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  font-family: "GothamProLight";
+  src: url("../fonts/GothamProLight/GothamProLight.eot");
+  src: url("../fonts/GothamProLight/GothamProLight.eot?#iefix") format("embedded-opentype"), url("../fonts/GothamProLight/GothamProLight.woff") format("woff"), url("../fonts/GothamProLight/GothamProLight.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  font-family: "GothamProMediumItalic";
+  src: url("../fonts/GothamProMediumItalic/GothamProMediumItalic.eot");
+  src: url("../fonts/GothamProMediumItalic/GothamProMediumItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/GothamProMediumItalic/GothamProMediumItalic.woff") format("woff"), url("../fonts/GothamProMediumItalic/GothamProMediumItalic.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  font-family: "GothamProLightItalic";
+  src: url("../fonts/GothamProLightItalic/GothamProLightItalic.eot");
+  src: url("../fonts/GothamProLightItalic/GothamProLightItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/GothamProLightItalic/GothamProLightItalic.woff") format("woff"), url("../fonts/GothamProLightItalic/GothamProLightItalic.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  font-family: "GothamProBoldItalic";
+  src: url("../fonts/GothamProBoldItalic/GothamProBoldItalic.eot");
+  src: url("../fonts/GothamProBoldItalic/GothamProBoldItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/GothamProBoldItalic/GothamProBoldItalic.woff") format("woff"), url("../fonts/GothamProBoldItalic/GothamProBoldItalic.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  font-family: "GothamProBlackItalic";
+  src: url("../fonts/GothamProBlackItalic/GothamProBlackItalic.eot");
+  src: url("../fonts/GothamProBlackItalic/GothamProBlackItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/GothamProBlackItalic/GothamProBlackItalic.woff") format("woff"), url("../fonts/GothamProBlackItalic/GothamProBlackItalic.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  font-family: "DaysRegular";
+  src: url("../fonts/Days/DaysRegular/DaysRegular.eot");
+  src: url("../fonts/Days/DaysRegular/DaysRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/Days/DaysRegular/DaysRegular.woff") format("woff"), url("../fonts/Days/DaysRegular/DaysRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+
+.container {
+  margin: 0 auto;
+  text-align: center; }
+
+.container::before,
+.container::after,
+.clearfix::before,
+.clearfix::after {
+  content: '';
+  display: table; }
+
+.container::after,
+.clearfix::after {
+  clear: both; }
+
+body {
+  background: url("../images/background.png") no-repeat;
+  background-size: cover; }
+
+.wrapper {
+  overflow: hidden; }
+
+header img {
+  padding-top: 30px;
+  width: 50%; }
+
+header h1 {
+  padding-top: 55px;
+  text-shadow: 0 1px 0 #343b3b, 0 2px 0 #424444, 0 3px 0 #5d6464, 0 4px 0 #869797, 0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15);
+  color: #a8ff00;
+  font-family: "Gotham Pro", sans-serif;
+  font-size: 60px;
+  font-weight: 900;
+  font-style: italic;
+  line-height: 42px; }
+
+header h2 {
+  text-shadow: 3px 4px 0 rgba(17, 19, 19, 0.45);
+  color: #ffffff;
+  font-family: "Gotham Pro", sans-serif;
+  font-size: 26px;
+  font-weight: 900;
+  font-style: italic;
+  line-height: 25px; }
+  header h2 span {
+    text-shadow: 3px 4px 0 rgba(17, 19, 19, 0.45);
+    color: #ffffff;
+    font-family: "Gotham Pro", sans-serif;
+    font-size: 55px;
+    font-weight: 900;
+    font-style: italic;
+    line-height: 37px; }
+
+footer p {
+  color: rgba(11, 16, 44, 0.85);
+  font-family: Days, sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 37px;
+  text-transform: uppercase; }
+
+main .form-act a {
+  opacity: 1;
+  margin-top: 25px;
+  color: #1e2f37;
+  font-family: Ubuntu, sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 6px 25px;
+  box-shadow: 0 7px #2f004f;
+  border-radius: 29px;
+  background-color: #a8ff00;
+  text-decoration: none;
+  transition: .2s linear; }
+  main .form-act a:hover {
+    background-color: #a8ff00;
+    box-shadow: -13px -3px 135px 15px rgba(138, 0, 255, 0.75); }
+
+main {
+  margin-top: 25px;
+  opacity: 0.75; }
+  main div #for-text {
+    z-index: 30;
+    opacity: 0.4;
+    width: 220px;
+    height: 0;
+    position: absolute;
+    left: 355px;
+    border-top: 80px solid #1d2c83;
+    border-right: 20px solid transparent;
+    border-bottom: 86px solid transparent;
+    border-left: 20px solid transparent; }
+    main div #for-text:before {
+      content: '';
+      width: 0;
+      height: 0;
+      right: 20%;
+      top: -28px;
+      position: absolute;
+      border-top: 30px solid transparent;
+      border-right: 38px solid #1d2c83;
+      border-bottom: 66px solid transparent; }
+    main div #for-text p {
+      z-index: 1;
+      top: -70px;
+      position: absolute;
+      color: #fff;
+      font-family: Ubuntu, sans-serif;
+      font-size: 12px;
+      font-weight: 300;
+      line-height: 20px; }
+  main img {
+    display: inline-block;
+    position: relative;
+    width: 54%; }
+    main img.first {
+      display: inline-block;
+      position: absolute;
+      width: 85%;
+      top: 0;
+      left: 100px;
+      opacity: 0.75; }
+  main .form-act {
+    top: 230px;
+    margin-left: 462px;
+    padding: 10px;
+    width: 215px;
+    height: 310px;
+    position: absolute;
+    border-radius: 21px;
+    background-color: #0b102c;
+    opacity: 0.9; }
+    main .form-act div {
+      padding: 15px 10px 0; }
+      main .form-act div input {
+        border-radius: 0;
+        border-top: 0;
+        border-left: 0;
+        border-right: 0;
+        background-color: #0b102c;
+        border-bottom: 1px solid #c0bfbf; }
+        main .form-act div input:focus {
+          color: white;
+          border-bottom: 1px solid #c0bfbf;
+          outline: 0;
+          box-shadow: inset 0 1px 1px #0b102c, 0 0 8px #0b102c; }
+    main .form-act p {
+      padding-top: 10px;
+      color: #c0bfbf;
+      font-family: Ubuntu, sans-serif;
+      font-size: 8px;
+      font-weight: 300; }
+      main .form-act p span {
+        text-decoration: underline; }
