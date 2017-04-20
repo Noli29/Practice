@@ -101,48 +101,25 @@ header img {
   padding-top: 30px;
   width: 50%; }
 
-header h1 {
-  padding-top: 55px;
-  text-shadow: 0 1px 0 #343b3b, 0 2px 0 #424444, 0 3px 0 #5d6464, 0 4px 0 #869797, 0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15);
-  color: #a8ff00;
-  font-family: "Gotham Pro", sans-serif;
-  font-size: 60px;
-  font-weight: 900;
-  font-style: italic;
-  line-height: 42px; }
-
 header h2 {
   text-shadow: 3px 4px 0 rgba(17, 19, 19, 0.45);
   color: #ffffff;
-  font-family: "Gotham Pro", sans-serif;
-  font-size: 26px;
-  font-weight: 900;
-  font-style: italic;
-  line-height: 25px; }
+  font: italic 900 26px/25px Gotham Pro, sans-serif; }
   header h2 span {
     text-shadow: 3px 4px 0 rgba(17, 19, 19, 0.45);
     color: #ffffff;
-    font-family: "Gotham Pro", sans-serif;
-    font-size: 55px;
-    font-weight: 900;
-    font-style: italic;
-    line-height: 37px; }
+    font: italic 900 55px/37px Gotham Pro, sans-serif; }
 
 footer p {
   color: rgba(11, 16, 44, 0.85);
-  font-family: Days, sans-serif;
-  font-size: 24px;
-  font-weight: 400;
-  line-height: 37px;
+  font: 400 24px/37px Days, sans-serif;
   text-transform: uppercase; }
 
 main .form-act a {
   opacity: 1;
-  margin-top: 25px;
+  margin-top: 20px;
   color: #1e2f37;
-  font-family: Ubuntu, sans-serif;
-  font-size: 12px;
-  font-weight: 700;
+  font: 700 14px Ubuntu, sans-serif;
   text-transform: uppercase;
   padding: 6px 25px;
   box-shadow: 0 7px #2f004f;
@@ -158,7 +135,7 @@ main {
   margin-top: 25px;
   opacity: 0.75; }
   main div #for-text {
-    z-index: 30;
+    top: 205px;
     opacity: 0.4;
     width: 220px;
     height: 0;
@@ -183,10 +160,7 @@ main {
       top: -70px;
       position: absolute;
       color: #fff;
-      font-family: Ubuntu, sans-serif;
-      font-size: 12px;
-      font-weight: 300;
-      line-height: 20px; }
+      font: 300 12px/20px Ubuntu, sans-serif; }
   main img {
     display: inline-block;
     position: relative;
@@ -219,14 +193,115 @@ main {
         border-bottom: 1px solid #c0bfbf; }
         main .form-act div input:focus {
           color: white;
-          border-bottom: 1px solid #c0bfbf;
+          border-bottom: 1px solid #1e33a0;
           outline: 0;
-          box-shadow: inset 0 1px 1px #0b102c, 0 0 8px #0b102c; }
+          box-shadow: inset 0 1px 1px #1d2c83, 0 0 8px #1d2c83; }
     main .form-act p {
-      padding-top: 10px;
+      padding-top: 15px;
       color: #c0bfbf;
-      font-family: Ubuntu, sans-serif;
-      font-size: 8px;
-      font-weight: 300; }
+      font: 300 8px Ubuntu, sans-serif; }
       main .form-act p span {
         text-decoration: underline; }
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  body {
+    height: 1060px; }
+  /*=====header=====*/
+  header img {
+    padding-top: 50px;
+    width: 90%; }
+  header h2 {
+    text-shadow: 3px 4px 0 rgba(17, 19, 19, 0.45);
+    color: #ffffff;
+    font: italic 900 26px/20px Gotham Pro, sans-serif; }
+    header h2 span {
+      text-shadow: 3px 4px 0 rgba(17, 19, 19, 0.45);
+      color: #ffffff;
+      font: italic 900 40px/37px Gotham Pro, sans-serif; }
+  /*=====main=====*/
+  main {
+    margin-top: 25px;
+    opacity: 0.75; }
+    main div #for-text {
+      margin: 30px 38px 150px;
+      z-index: 30;
+      opacity: 1;
+      width: 220px;
+      height: 0;
+      position: relative;
+      top: 0;
+      left: 0;
+      border-top: 0;
+      border-right: 0;
+      border-bottom: 0;
+      border-left: 0; }
+      main div #for-text:after {
+        background: url("../images/arrow.png") repeat; }
+      main div #for-text:before {
+        content: '';
+        width: 0;
+        height: 0;
+        right: 0;
+        top: 0;
+        position: relative;
+        border-top: 0;
+        border-right: 0;
+        border-bottom: 0; }
+      main div #for-text p {
+        z-index: 1;
+        top: 0;
+        position: relative;
+        color: #a8ff00;
+        font: italic 700 17px/20px Ubuntu, sans-serif; }
+    main img {
+      display: inline-block;
+      position: relative;
+      width: 423px;
+      height: 272px; }
+      main img.first {
+        display: inline-block;
+        position: absolute;
+        width: 320px;
+        height: 1056px;
+        opacity: 0.75;
+        top: 0;
+        left: 0; }
+    main .form-act {
+      margin: 0 38px 0;
+      top: 0;
+      padding: 10px;
+      width: 215px;
+      height: 310px;
+      position: relative;
+      border-radius: 21px;
+      background-color: #0b102c;
+      opacity: 0.9; }
+      main .form-act div {
+        padding: 15px 10px 0; }
+        main .form-act div input {
+          border-radius: 0;
+          border-top: 0;
+          border-left: 0;
+          border-right: 0;
+          background-color: #0b102c;
+          border-bottom: 1px solid #c0bfbf; }
+          main .form-act div input:focus {
+            color: white;
+            border-bottom: 1px solid #1e33a0;
+            outline: 0;
+            box-shadow: inset 0 1px 1px #1d2c83, 0 0 8px #1d2c83; }
+      main .form-act p {
+        padding-top: 15px;
+        color: #c0bfbf;
+        font: 300 8px Ubuntu, sans-serif; }
+        main .form-act p span {
+          text-decoration: underline; }
+  /*=====footer=====*/
+  footer p {
+    position: absolute;
+    top: 425px;
+    right: 18px;
+    opacity: 0.25;
+    color: #fff;
+    font: 700 16px/37px Days, sans-serif;
+    text-transform: uppercase; } }

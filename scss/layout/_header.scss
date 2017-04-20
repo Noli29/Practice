@@ -3,41 +3,16 @@ header {
     padding-top: 30px;
     width: 50%;
   }
-  h1 {
-    padding-top: 55px;
-    text-shadow: 0 1px 0 #343b3b, 0 2px 0 #424444, 0 3px 0 #5d6464, 0 4px 0 #869797, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
-   // text-shadow: 2px 4px 8px rgba(17, 19, 19, 0.75);
-    //background: linear-gradient(#bcff62,#8fff00);
-  //  background: -webkit-linear-gradient(#68ff00, #61b300);
-    //-webkit-background-clip: text;
-    //-webkit-text-fill-color: transparent;
-    color: #a8ff00;
-    font-family: "Gotham Pro", sans-serif;
-    font-size: 60px;
-    font-weight: 900;
-    font-style: italic;
-    line-height: 42px;
-  }
 
   h2 {
     text-shadow: 3px 4px 0 rgba(17, 19, 19, 0.45);
     color: #ffffff;
-    font-family: "Gotham Pro", sans-serif;
-    font-size: 26px;
-    font-weight: 900;
-    font-style: italic;
-    line-height: 25px;
-
+    font: italic 900 26px/25px Gotham Pro, sans-serif;
 
     span {
       text-shadow: 3px 4px 0 rgba(17, 19, 19, 0.45);
       color: #ffffff;
-      font-family: "Gotham Pro", sans-serif;
-      font-size: 55px;
-      font-weight: 900;
-      font-style: italic;
-      line-height: 37px;
+      font: italic 900 55px/37px Gotham Pro, sans-serif;
     }
   }
-
 }

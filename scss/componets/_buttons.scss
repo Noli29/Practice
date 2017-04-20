@@ -2,11 +2,9 @@ main {
   .form-act {
     a {
       opacity: 1;
-      margin-top: 25px;
+      margin-top: 20px;
       color: #1e2f37;
-      font-family: Ubuntu, sans-serif;
-      font-size: 12px;
-      font-weight: 700;
+      font: 700 14px Ubuntu, sans-serif;;
       text-transform: uppercase;
       padding: 6px 25px;
       box-shadow: 0 7px #2f004f;
