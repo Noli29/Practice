@@ -1,6 +1,6 @@
 header {
   img {
-    padding-top: 30px;
+    padding-top: 25px;
     width: 50%;
   }
 
@@ -14,5 +14,12 @@ header {
       color: #ffffff;
       font: italic 900 55px/37px Gotham Pro, sans-serif;
     }
+  }
+
+  a {
+    float: left;
+    margin-left: 20px;
+    color: #a8ff00;
+    opacity: 0;
   }
 }

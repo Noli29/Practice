@@ -21,3 +21,42 @@ main {
     }
   }
 }
+
+@media screen and (min-width: 320px) and (max-width: 374px){
+  main {
+    .form-act {
+      a {
+        margin-top: 40px;
+        font: 700 16px Ubuntu, sans-serif;;
+        padding: 10px 45px;
+        box-shadow: 0 5px #000;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 424px) {
+  main {
+    .form-act {
+      a {
+        margin-top: 40px;
+        font: 700 16px Ubuntu, sans-serif;;
+        padding: 10px 45px;
+        box-shadow: 0 5px #000;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 425px) and (max-width: 767px) {
+  main {
+    .form-act {
+      a {
+        margin-top: 40px;
+        font: 700 16px Ubuntu, sans-serif;;
+        padding: 15px 55px;
+        box-shadow: 0 5px #000;
+      }
+    }
+  }
+}
