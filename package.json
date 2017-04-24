@@ -15,5 +15,17 @@
     "gulp-include": "^2.1.0",
     "gulp-livereload": "^3.8.1",
     "gulp-sass": "^2.2.0"
-  }
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Noli29/Practice.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Noli29/Practice/issues"
+  },
+  "homepage": "https://github.com/Noli29/Practice#readme"
 }
